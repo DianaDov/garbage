@@ -1,0 +1,29 @@
+﻿  ChartForm.cpp
+  Clients.cpp
+E:\Visual Studio 2019\Projects\C++\(169)Сlient database\Сlient database\Clients.cpp(25,6): warning C4101: num: неиспользованная локальная переменная
+E:\Visual Studio 2019\Projects\C++\(169)Сlient database\Сlient database\Clients.cpp(52,20): warning C4018: <: несоответствие типов со знаком и без знака
+E:\Visual Studio 2019\Projects\C++\(169)Сlient database\Сlient database\Clients.cpp(61,9): warning C4018: <: несоответствие типов со знаком и без знака
+E:\Visual Studio 2019\Projects\C++\(169)Сlient database\Сlient database\Clients.cpp(77,15): warning C4018: >: несоответствие типов со знаком и без знака
+E:\Visual Studio 2019\Projects\C++\(169)Сlient database\Сlient database\Clients.cpp(87,16): warning C4018: >: несоответствие типов со знаком и без знака
+E:\Visual Studio 2019\Projects\C++\(169)Сlient database\Сlient database\Clients.cpp(97,16): warning C4018: >: несоответствие типов со знаком и без знака
+E:\Visual Studio 2019\Projects\C++\(169)Сlient database\Сlient database\Clients.cpp(110,20): warning C4018: <: несоответствие типов со знаком и без знака
+E:\Visual Studio 2019\Projects\C++\(169)Сlient database\Сlient database\Clients.cpp(130,20): warning C4018: <: несоответствие типов со знаком и без знака
+E:\Visual Studio 2019\Projects\C++\(169)Сlient database\Сlient database\Clients.cpp(146,16): warning C4018: >: несоответствие типов со знаком и без знака
+E:\Visual Studio 2019\Projects\C++\(169)Сlient database\Сlient database\Clients.cpp(170,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+E:\Visual Studio 2019\Projects\C++\(169)Сlient database\Сlient database\Clients.cpp(174,20): warning C4018: <: несоответствие типов со знаком и без знака
+E:\Visual Studio 2019\Projects\C++\(169)Сlient database\Сlient database\Clients.cpp(188,21): warning C4018: <: несоответствие типов со знаком и без знака
+E:\Visual Studio 2019\Projects\C++\(169)Сlient database\Сlient database\Clients.cpp(189,26): warning C4018: <: несоответствие типов со знаком и без знака
+E:\Visual Studio 2019\Projects\C++\(169)Сlient database\Сlient database\Clients.cpp(200,21): warning C4018: <: несоответствие типов со знаком и без знака
+E:\Visual Studio 2019\Projects\C++\(169)Сlient database\Сlient database\Clients.cpp(201,26): warning C4018: <: несоответствие типов со знаком и без знака
+E:\Visual Studio 2019\Projects\C++\(169)Сlient database\Сlient database\Clients.cpp(212,21): warning C4018: <: несоответствие типов со знаком и без знака
+E:\Visual Studio 2019\Projects\C++\(169)Сlient database\Сlient database\Clients.cpp(213,26): warning C4018: <: несоответствие типов со знаком и без знака
+E:\Visual Studio 2019\Projects\C++\(169)Сlient database\Сlient database\Clients.cpp(224,21): warning C4018: <: несоответствие типов со знаком и без знака
+  Functions.cpp
+  StartForm.cpp
+E:\Visual Studio 2019\Projects\C++\(169)Сlient database\Сlient database\Clients.cpp(225,26): warning C4018: <: несоответствие типов со знаком и без знака
+  WorkForm.cpp
+E:\Visual Studio 2019\Projects\C++\(169)Сlient database\Сlient database\StartForm.cpp(7,33): warning C4829: Возможно, неправильные параметры функции main. Рекомендуемый вариант - "int main(Platform::Array<Platform::String^>^ argv)"
+  Создание кода...
+E:\Visual Studio 2019\Projects\C++\(169)Сlient database\Сlient database\WorkForm.cpp(177,43): warning C4553: "==": результат выражения не используется; вы хотели использовать "="?
+  ChartForm.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+  Сlient database.vcxproj -> E:\Visual Studio 2019\Projects\C++\(169)Сlient database\Debug\Сlient database.exe
