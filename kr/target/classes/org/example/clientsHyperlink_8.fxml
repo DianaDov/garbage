@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<AnchorPane prefHeight="678.0" prefWidth="1227.0" style="-fx-background-color: #F5F5F5;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.ClientsHyperlinkController_8">
+   <children>
+      <TableView fx:id="table" layoutX="20.0" layoutY="25.0" prefHeight="628.0" prefWidth="1188.0" AnchorPane.bottomAnchor="25.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="19.0" AnchorPane.topAnchor="25.0">
+         <columns>
+            <TableColumn fx:id="fioOfTheClient" prefWidth="281.0" text="ФИО клиента" />
+            <TableColumn fx:id="agreementNumber" prefWidth="216.0" text="Номер соглашения" />
+            <TableColumn fx:id="address" prefWidth="430.0" text="Адрес клиента" />
+            <TableColumn fx:id="ipAddress" prefWidth="260.0" text=" ip адрес клиента" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>

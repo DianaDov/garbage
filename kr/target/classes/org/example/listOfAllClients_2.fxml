@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<AnchorPane prefHeight="720.0" prefWidth="1227.0" style="-fx-background-color: #F5F5F5;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.ListOfAllClientsController_2">
+   <children>
+      <TableView fx:id="table" layoutX="32.0" layoutY="86.0" prefHeight="563.0" prefWidth="1162.0" AnchorPane.bottomAnchor="71.0" AnchorPane.leftAnchor="32.0" AnchorPane.rightAnchor="33.0" AnchorPane.topAnchor="86.0">
+         <columns>
+            <TableColumn fx:id="fioOfTheClient" prefWidth="281.0" text="ФИО клиента" />
+            <TableColumn fx:id="agreementNumber" prefWidth="216.0" text="Номер соглашения" />
+            <TableColumn fx:id="address" prefWidth="430.0" text="Адрес клиента" />
+            <TableColumn fx:id="ipAddress" prefWidth="234.0" text=" ip адрес клиента" />
+         </columns>
+      </TableView>
+      <Button fx:id="deleteClient" alignment="CENTER" layoutX="672.0" layoutY="664.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="209.0" text="Удалить клиента" textFill="#685b5b">
+         <font>
+            <Font name="Cambria" size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="addClient" alignment="CENTER" layoutX="358.0" layoutY="664.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="209.0" text="Добавить клиента" textFill="#685b5b">
+         <font>
+            <Font name="Cambria" size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="back" alignment="CENTER" layoutX="7.0" layoutY="6.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="94.0" style="-fx-background-color: #00000000;" text="←">
+         <font>
+            <Font name="Cambria" size="42.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

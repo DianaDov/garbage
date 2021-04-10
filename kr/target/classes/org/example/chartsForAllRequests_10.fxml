@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.AreaChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="667.0" prefWidth="910.0" style="-fx-background-color: #F5FFFA;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.ChartsForAllRequestsController_10">
+   <children>
+      <AreaChart fx:id="areaChart" animated="false" layoutX="66.0" layoutY="71.0" prefHeight="584.0" prefWidth="749.0" title="Статистика поступления заявок" AnchorPane.bottomAnchor="12.0" AnchorPane.leftAnchor="66.0" AnchorPane.rightAnchor="95.0" AnchorPane.topAnchor="71.0">
+        <xAxis>
+          <CategoryAxis label="Дата поступления" prefHeight="88.0" prefWidth="670.0" side="BOTTOM" fx:id="x" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis fx:id="y" label="Кол-во поступивших заявок" prefHeight="408.0" prefWidth="49.0" side="LEFT" />
+        </yAxis>
+      </AreaChart>
+      <Button fx:id="back" alignment="CENTER" mnemonicParsing="false" prefHeight="100.0" prefWidth="103.0" style="-fx-background-color: #00000000;" text="←">
+         <font>
+            <Font name="Cambria" size="42.0" />
+         </font>
+      </Button>
+      <DatePicker fx:id="dp1" layoutX="186.0" layoutY="39.0" prefHeight="33.0" prefWidth="183.0" />
+      <Label layoutX="167.0" layoutY="41.0" text="с">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="385.0" layoutY="41.0" text="до">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <DatePicker fx:id="dp2" layoutX="419.0" layoutY="39.0" prefHeight="33.0" prefWidth="183.0" />
+      <Button fx:id="apply" layoutX="639.0" layoutY="40.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="81.0" text="применить" />
+   </children>
+</AnchorPane>

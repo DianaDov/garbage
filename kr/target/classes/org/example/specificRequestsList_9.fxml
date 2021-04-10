@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<AnchorPane prefHeight="720.0" prefWidth="1280.0" style="-fx-background-color: #F5F5F5;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.SpecificRequestsListController_9">
+   <children>
+      <Button fx:id="back" alignment="CENTER" layoutX="9.0" layoutY="11.0" mnemonicParsing="false" prefHeight="83.0" prefWidth="101.0" style="-fx-background-color: #00000000;" text="←">
+         <font>
+            <Font name="Cambria" size="42.0" />
+         </font>
+      </Button>
+      <TableView fx:id="table2" editable="true" layoutX="32.0" layoutY="103.0" prefHeight="587.0" prefWidth="1217.0" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="32.0" AnchorPane.rightAnchor="31.0" AnchorPane.topAnchor="103.0">
+         <columns>
+            <TableColumn fx:id="fioOfTheClient2" prefWidth="239.0" text="ФИО клиента" />
+            <TableColumn fx:id="problem2" prefWidth="470.0" text="Проблема" />
+            <TableColumn fx:id="date2" prefWidth="177.0" text="Дата поступления заявки" />
+            <TableColumn fx:id="time2" prefWidth="166.0" text="Время поступления заявки" />
+            <TableColumn fx:id="ready2" prefWidth="164.0" text="Состояние готовности" />
+         </columns>
+      </TableView>
+      <ImageView fitHeight="104.0" fitWidth="118.0" layoutX="130.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@icons-событие-принято-.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="lb1" layoutX="359.0" layoutY="39.0" prefHeight="43.0" prefWidth="151.0" text="Label">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Label fx:id="lb2" layoutX="637.0" layoutY="39.0" prefHeight="43.0" prefWidth="180.0" text="Label">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Label layoutX="565.0" layoutY="38.0" prefHeight="45.0" prefWidth="20.0" text="--">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<AnchorPane prefHeight="710.0" prefWidth="1272.0" style="-fx-background-color: #F5F5F5;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.ListOfAllRequestsController_5">
+   <children>
+      <Button fx:id="deleteTheRequest" alignment="CENTER" layoutX="250.0" layoutY="617.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="180.0" text="Удалить заявку" textFill="#685b5b">
+         <font>
+            <Font name="Cambria" size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="handleTheRequest" alignment="CENTER" layoutX="32.0" layoutY="617.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="209.0" text="Обработать заявку" textFill="#685b5b">
+         <font>
+            <Font name="Cambria" size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="back" alignment="CENTER" layoutX="9.0" layoutY="11.0" mnemonicParsing="false" prefHeight="83.0" prefWidth="101.0" style="-fx-background-color: #00000000;" text="←">
+         <font>
+            <Font name="Cambria" size="42.0" />
+         </font>
+      </Button>
+      <TableView fx:id="table1" editable="true" layoutX="32.0" layoutY="103.0" prefHeight="502.0" prefWidth="1209.0" AnchorPane.bottomAnchor="105.0" AnchorPane.leftAnchor="32.0" AnchorPane.rightAnchor="31.0" AnchorPane.topAnchor="103.0">
+         <columns>
+            <TableColumn fx:id="fioOfTheClient1" prefWidth="239.0" text="ФИО клиента" />
+            <TableColumn fx:id="problem1" prefWidth="470.0" text="Проблема" />
+            <TableColumn fx:id="date1" prefWidth="163.0" text="Дата поступления заявки" />
+            <TableColumn fx:id="time1" prefWidth="171.0" text="Время поступления заявки" />
+            <TableColumn fx:id="ready1" prefWidth="165.0" text="Состояние готовности" />
+         </columns>
+      </TableView>
+      <Button fx:id="readyTodayRequests" alignment="CENTER" layoutX="821.0" layoutY="646.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="412.0" text="Заявки, выполненные за текущие сутки" textFill="#685b5b">
+         <font>
+            <Font name="Cambria" size="21.0" />
+         </font>
+      </Button>
+      <DatePicker fx:id="period1" layoutX="583.0" layoutY="41.0" prefHeight="40.0" prefWidth="209.0" showWeekNumbers="true" />
+      <Label layoutX="228.0" layoutY="46.0" text="Выберите промежуток времени :">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="559.0" layoutY="46.0" text="с">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="807.0" layoutY="46.0" prefHeight="30.0" prefWidth="28.0" text="до">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <DatePicker fx:id="period2" layoutX="841.0" layoutY="41.0" prefHeight="40.0" prefWidth="202.0" showWeekNumbers="true" />
+      <Button fx:id="apply" alignment="CENTER" layoutX="1073.0" layoutY="41.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="143.0" text="Применить" textFill="#685b5b">
+         <font>
+            <Font name="Cambria" size="21.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="40.0" fitWidth="57.0" layoutX="179.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@icons-календарь-.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="57.0" layoutX="767.0" layoutY="646.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@icons-последние-24-часов-.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
